@@ -1,38 +1,51 @@
+/* Set background color of the body */
 body {
     background-color: #0a0a23;
 }
+
+/* Style the game text */
 #text {
-    background-color: #0a0a23;
-    color: #ffffff;
-    padding: 10px;
+    background-color: #0a0a23; /* Set background color */
+    color: #ffffff; /* Set text color */
+    padding: 10px; /* Add padding */
 }
+
+/* Style the game container */
 #game {
-    max-width: 500px;
-    max-height: 400px;
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 30px auto 0px auto;
-    padding: 10px;
+    max-width: 500px; /* Set maximum width */
+    max-height: 400px; /* Set maximum height */
+    background-color: #ffffff; /* Set background color */
+    color: #ffffff; /* Set text color */
+    margin: 30px auto 0px auto; /* Center the game container */
+    padding: 10px; /* Add padding */
 }
+
+/* Style the controls and stats containers */
 #controls, #stats {
-    border: 1px solid #0a0a23;
-    color: #0a0a23;
-    padding: 5px;
+    border: 1px solid #0a0a23; /* Add border */
+    color: #0a0a23; /* Set text color */
+    padding: 5px; /* Add padding */
 }
+
+/* Style the monster stats container */
 #monsterStats {
-    display: none;
-    border: 1px solid #0a0a23;
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
+    display: none; /* Hide by default */
+    border: 1px solid #0a0a23; /* Add border */
+    padding: 5px; /* Add padding */
+    color: #ffffff; /* Set text color */
+    background-color: #c70d0d; /* Set background color */
 }
+
+/* Style the stats */
 .stat {
-    padding-right: 10px;
+    padding-right: 10px; /* Add padding */
 }
+
+/* Style the buttons */
 button {
-    cursor: pointer;
-    color: #0a0a23;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+    cursor: pointer; /* Set cursor to pointer */
+    color: #0a0a23; /* Set text color */
+    background-color: #feac32; /* Set background color */
+    background-image: linear-gradient(#fecc4c, #ffac33); /* Add gradient background */
+    border: 3px solid #feac32; /* Add border */
 }

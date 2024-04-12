@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RPG - Dragon Repeller</title>
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8" /> <!-- Set character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Configure viewport for responsive design -->
+    <title>RPG - Dragon Repeller</title> <!-- Set title of the page -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to external stylesheet -->
 </head>
 <body>
     <div id="game">
+        <!-- Container for game content -->
         <div id="stats">
+            <!-- Container for player stats -->
+            <!-- Display player stats: XP, Health, Gold -->
             <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
             <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
             <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
         </div>
         <div id="controls">
+            <!-- Container for game controls -->
+            <!-- Buttons for player actions -->
             <button id="button1">Go to store</button>
             <button id="button2">Go to cave</button>
             <button id="button3">Fight dragon</button>
         </div>
         <div id="monsterStats">
+            <!-- Container for monster stats -->
+            <!-- Display monster stats: Name, Health -->
             <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
             <span class="stat">Monster Health: <strong><span id="monsterHealth"></span></strong></span>
         </div>
         <div id="text">
+            <!-- Container for game text -->
+            <!-- Display game narrative and prompts -->
             Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
         </div>
     </div>
-    <script src="./script.js"></script>
-  </body>
+    <script src="./script.js"></script> <!-- Link to external JavaScript file -->
+</body>
 </html>
-
